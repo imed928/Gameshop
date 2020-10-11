@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    color:white;
+}
+
+#description {
+    text-align: left;
+    padding-left: 120px;
+}
+
+.produit {
+    display: flex;
+    justify-content: space-around;
+    margin-top:3em;
+    margin-bottom:2em;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+img {
+    height: 500px;
+}
+
+button {
+    border-radius: 30px;
+    color: white;
+    background:red;
+    border: 1px solid #999;
+}
+
+button:hover {
+    background:blue;
+}

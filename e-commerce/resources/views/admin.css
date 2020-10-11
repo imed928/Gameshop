@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    //background-image: url(http://wallpaperstock.net/green--blue-radial-gradient_wallpapers_43827_2560x1440.jpg);
+    background-image: url(https://juegosrev.com/wp-content/uploads/2017/05/B1-WALL_3809.jpg?w=278&h=156);
+    //background-color: #1a1a1a;
+    background-repeat: repeat;
+    font-family: Optima, sans-serif;
+    text-align: center;
+}
+
+.box {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 40px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #3d5c5c;
+    border: 1px solid #e7e7e7;
+    border-radius: 50px 0px;
+}
+
+.box input[type = "text"],.box input[type = "number"],.box input[type = "password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #b30000;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type = "text"]:focus,.box input[type = "number"]:focus,.box input[type = "password"]:focus {
+    width: 280px;
+    border-color: red;
+}
+
+.box input[type = "submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #b30000;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type = "submit"]:hover {
+    background: #2ecc71;
+}
+
+#imgo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32%;
+    width: 60%;
+    height: 60%;
+}
+
+#zoom:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 640px) {
+    .bloc {
+	display:block;
+	clear:both;
+    }
+}
+
+h1 {
+    font-size: 1.5rem;
+}
